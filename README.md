@@ -1,12 +1,15 @@
-# Project Name
-This project is ________. (Describe the main goals of the project. Limit to 1-2 sentences)
+# Image Classifier Training - Jupyter Notebook
 
-## Description
-Optional section to provide a more detailed overview of the project.
+This project provides a simple convolutional neural network (CNN) model built and trained using TensorFlow/Keras within a Jupyter notebook.
 
-## Get Started
-This section should be used to summarize the project and how to get started after cloning. Once this section 
-is edited, it will show up on the Project Dashboard tab. 
+## 📁 Files
 
-If you completely delete this section, the "Get Started" widget will be removed from the Project Dashboard.
+- `Image_Classifier_Training.ipynb`: The main notebook for training the model
+- `batch.npy`: Preprocessed dataset file (you need to supply this)
 
+## 📦 Requirements
+
+Install dependencies using:
+
+```bash
+pip install numpy matplotlib tensorflow
